@@ -391,7 +391,7 @@ header ul {
 }
 
 .popuptitle {
-  text: center;
+  text-justify: center;
 }
 
 .input {
@@ -477,6 +477,11 @@ header ul {
   animation: apparition 1s ease-out 0.4s forwards ;
 }
 
+.anim6 {
+  opacity: 0;
+  animation: apparition 1s ease-out 0.5s forwards ;
+}
+
 .animg {
   opacity: 0;
   animation : gauche 1s ease-out 0s forwards ;
@@ -515,6 +520,10 @@ header ul {
   0%{
     opacity: 0;
     transform: translateY(100px);
+  }
+
+  75%{
+    transform: translateY(-20px);
   }
 
   100%{
