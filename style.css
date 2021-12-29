@@ -477,6 +477,39 @@ header ul {
   animation: apparition 1s ease-out 0.4s forwards ;
 }
 
+.animg {
+  opacity: 0;
+  animation : gauche 1s ease-out 0s forwards ;
+}
+.animd {
+  opacity: 0;
+  animation : droite 1s ease-out 0s forwards ;
+}
+
+@keyframes droite {
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes gauche {
+  0%{
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
 @keyframes apparition {
 
   0%{
