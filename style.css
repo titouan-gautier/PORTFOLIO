@@ -4,8 +4,14 @@
     padding: 0;
   }
 
+html {
+  overflow-y: hidden;
+}
+
 body {
-  
+  --color-paid: #7fdbff;
+  --color-sent: #39cccc;
+
   --brown:#470c08;
   --cream:#fefee2;
   --navy:#0c0466;
@@ -534,4 +540,10 @@ header ul {
 }
 
 
-/* J'ai changé */
+/* Competences */
+
+.diagrame {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
