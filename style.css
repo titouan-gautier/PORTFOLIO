@@ -125,6 +125,12 @@ main {
   margin: auto;
 }
 
+.caseimgmoi{
+  height: 180px;
+  width: auto;
+  margin: auto;
+}
+
 .cases1 {
   display: grid;
   grid-template-columns: 1fr;
