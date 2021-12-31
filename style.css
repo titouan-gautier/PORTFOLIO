@@ -119,7 +119,15 @@ main {
   margin: auto;
 }
 
+.caseimg {
+  height: 200px;
+  width: auto;
+  margin: auto;
+}
+
 .cases1 {
+  display: grid;
+  grid-template-columns: 1fr;
   background: rgb(211,211,211,0.4);
   height: 200px;
   border-radius: 5px;
@@ -365,10 +373,13 @@ header ul {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 5%;
+  gap: 25px;
 }
 
 .popupp {
   text-justify: distribute;
+  font-size: 1.6em;
 }
 
 .popuptitle {
@@ -396,6 +407,7 @@ header ul {
 
 .popuptitle {
   text-justify: center;
+  font-size: 3.5em;
 }
 
 .input {
