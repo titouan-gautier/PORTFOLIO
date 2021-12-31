@@ -86,7 +86,7 @@ main {
 .text1 {
   font-size: 2em;
   text-align: justify;
-  padding: 2px;
+  padding: 4px;
   font-family: var(--main-font);
 }
 
